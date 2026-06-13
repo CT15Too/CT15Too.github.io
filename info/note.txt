@@ -1,0 +1,107 @@
+# Wedding Vendor Information Extraction — Instructions
+
+## Context
+- Working directory: /Users/bytedance/Desktop/photos/
+- Each subfolder = one wedding photography vendor
+- Skip the `log/` folder (system logs, not a vendor)
+- Price list year: 2026 (unless noted otherwise in the file)
+
+## Currency Rule
+- IMPORTANT: Small numbers in vendor files mean millions of IDR
+  - e.g., "IDR 62" or just "62" → write as IDR 62,000,000
+  - e.g., "IDR 3.5" → write as IDR 3,500,000
+  - e.g., "IDR 0.5" → write as IDR 500,000
+- Always write the full amount. Never abbreviate.
+
+## What to Extract
+Extract ALL factual information so every future question can be answered from the txt file alone:
+- Package names and types (Prewedding/Couple Session, Wedding, Engagement, Bundle, Special Event, etc.)
+- Package prices (full IDR amounts)
+- Everything included in each package:
+  - Coverage duration (hours/days)
+  - Number of edited photos delivered
+  - Number of unedited/raw photos (if provided)
+  - Photo format (hi-res JPEG, color corrected, etc.)
+  - Number of photographers and videographers
+  - Number of assistants
+  - Video deliverables (highlight duration, SDE, teaser, full video, etc.)
+  - Album (size, page count, type)
+  - Prints, canvas, USB/flashdisk
+  - Drone (if included)
+  - Stylist / moodboard / outfit recommendation
+  - Studio rental (if included)
+  - Delivery method (Google Drive, flashdisk, etc.)
+  - Number of looks/outfit changes
+  - Location types (studio, outdoor, indoor, destination)
+- Upgrade options and their additional prices
+- Add-ons / optional extras with prices
+- Bundle packages (prewedding + wedding, etc.) and savings
+- Delivery timelines (turnaround per deliverable type)
+- Terms and conditions:
+  - What is included for crew (transport, accommodation, meals)
+  - What is excluded / paid by client
+  - Out-of-town surcharges
+  - Validity / expiry of files (e.g., Google Drive accessible 6 months)
+- Photographer/videographer options with names if mentioned (e.g., Bobby/Bagus vs Ryan)
+- Availability windows (e.g., "March-April" for overseas trips)
+
+## What NOT to Extract
+- Decorative portfolio photos with no text information
+- Marketing slogans or taglines (unless they clarify scope)
+- Contact information (not needed for comparison)
+- General brand descriptions
+
+## Output Format
+- **Language:** English only
+- **File naming:** one `.txt` file per vendor folder, named after the folder
+  - e.g., folder `mantara/` → file `mantara/mantara.txt`
+- **Saved inside the vendor's own folder**
+- **Formatting:** use structured headers (##), bullet points, and tables for readability
+
+### Standard File Structure:
+```
+# [Vendor Name]
+
+## [Session Type, e.g., Prewedding / Couple Session]
+### [Package Name or tier] — IDR X,XXX,XXX
+- Duration: ...
+- Photographers: ...
+- Videographers: ...
+- Edited photos: ...
+- Unedited photos: ...
+- Video: ...
+- Includes: ...
+
+## Wedding Day
+### [Package Name] — IDR X,XXX,XXX
+...
+
+## Bundle Packages
+...
+
+## Add-Ons
+| Item | Price |
+|------|-------|
+| ... | IDR X,XXX,XXX |
+
+## Delivery Timelines
+| Item | Turnaround |
+|------|------------|
+| ... | ... |
+
+## Terms & Conditions
+- ...
+
+## Notes
+- [anything unusual, flags, caveats]
+```
+
+## Final Goal
+The extracted txt files will be used to build a comparison website (possibly an infographic-style site) for comparing wedding photography vendors side by side. Consistent formatting across all vendor files is important.
+
+## Vendor Folders (as of 2026-06-13)
+- `biggest_moment/` — Sweet Pictures managed by Biggest Moment (JPEG price list, PLSP2023)
+- `mantara/` — Mantara Visual (PDF, 2026)
+- `perpetual/` — Perpetual Films (2 PDFs: Price Guide + Journey/Overseas)
+- `slowhand/` — Slowhand Studios, Surabaya (PDF, V2/2026)
+- `log/` — SKIP (system logs)

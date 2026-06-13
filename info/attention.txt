@@ -1,0 +1,46 @@
+# Attention Items — Vendor Price Lists
+
+Items flagged during extraction that require verification or follow-up.
+
+---
+
+## biggest_moment
+- **Possibly outdated price list** — The price list carries code "PLSP2023", suggesting it may be from 2023, not 2026. Verify with the vendor if pricing is still current before comparing.
+
+---
+
+## mantara
+- **Early bird pricing** — Several packages have both a normal price and an early bird (discounted) price. It is unclear whether the early bird offer is still active or has expired. Verify current valid pricing with the vendor.
+
+---
+
+## pattivana
+- **Promotional prices may be expired** — Many packages show a strikethrough original price and a lower current price. Some prices carry the note "*Only Valid from 2026, Feb 23–28". As of June 2026, this promotional window has passed. The current valid prices are unknown — confirm with the vendor.
+- **Missing Bali/Jakarta pricing** — The "Behind the Wedding — Exclusive" package only shows Surabaya pricing. Bali/Jakarta pricing is not listed.
+
+---
+
+## rawproject
+- **Outdated price list** — The PDF is labeled "Pricing Guide 2025", not 2026. Verify if pricing has been updated for 2026 before comparing.
+- **No wedding day packages** — Only prewedding/couple session packages are listed. It is unclear whether they offer wedding day coverage at all.
+
+---
+
+## pl_photo
+- **No wedding pricing shown** — The price list only covers prewedding (Local Bali). Wedding day packages exist but pricing is not listed — a bundle with wedding is available at a "special price" (contact required).
+- **RAW video not provided** — Unlike most other vendors, PL Photo explicitly does not deliver raw video files.
+
+---
+
+## galilea
+- **Open trip dates may have passed** — The open trip packages have specific dates:
+  - Surabaya Open Trip: Feb 11–14, 2026 (already passed)
+  - Japan Open Trip (short session): Jan–Feb 2026 (already passed)
+  - Bali Open Trip: Apr 22–25, 2026 (already passed)
+  - Semarang Open Trip: Apr 16–18, 2026 (already passed)
+  - Japan Open Trip (full): May 13–20, 2026 (already passed)
+  Confirm with Galilea whether new open trip dates are available for 2026.
+
+---
+
+_Last updated: 2026-06-13_
