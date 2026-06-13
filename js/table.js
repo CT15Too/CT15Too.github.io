@@ -78,9 +78,8 @@ var TableRenderer = (function() {
 
   function flagCell(flags) {
     if (!flags || flags.length === 0) return '';
-    return flags.map(function(f) {
-      return '<span class="flag-icon" title="' + AppData.flagTooltip(f) + '">⚠️</span>';
-    }).join(' ');
+    var text = flags.map(AppData.flagTooltip).join('\n');
+    return '<span class="flag-icon" data-tooltip="' + text.replace(/"/g, '&quot;') + '">!</span>';
   }
 
   function renderCell(col, pkg, type) {
