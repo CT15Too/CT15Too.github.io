@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Vendor Comparison</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">Wedding Vendor Comparison</h1>
+      <p class="site-subtitle">Compare prewedding &amp; wedding photography packages</p>
+    </div>
+  </header>
+
+  <!-- STICKY FILTER BAR -->
+  <div class="filter-bar" id="filterBar">
+    <div class="filter-bar-inner">
+
+      <!-- Location chips -->
+      <div class="filter-group">
+        <label class="filter-label">Location</label>
+        <div class="chip-group" id="locationChips">
+          <button class="chip active" data-location="all">All</button>
+          <button class="chip" data-location="Bali">Bali</button>
+          <button class="chip" data-location="Jakarta">Jakarta</button>
+          <button class="chip" data-location="Surabaya">Surabaya</button>
+          <button class="chip" data-location="Overseas">Overseas</button>
+        </div>
+      </div>
+
+      <!-- Price range -->
+      <div class="filter-group">
+        <label class="filter-label">Max Price <span id="priceDisplay">Any</span></label>
+        <input type="range" id="priceRange" min="0" max="110000000" step="1000000" value="110000000" />
+      </div>
+
+      <!-- Media type -->
+      <div class="filter-group">
+        <label class="filter-label">Media</label>
+        <div class="chip-group" id="mediaChips">
+          <button class="chip active" data-media="all">All</button>
+          <button class="chip" data-media="photo">Photo Only</button>
+          <button class="chip" data-media="video">Video Only</button>
+          <button class="chip" data-media="combo">Photo + Video</button>
+        </div>
+      </div>
+
+      <!-- Toggles -->
+      <div class="filter-group filter-toggles">
+        <label class="toggle-label"><input type="checkbox" id="filterMUA" /> MUA Included</label>
+        <label class="toggle-label"><input type="checkbox" id="filterDrone" /> Drone</label>
+        <label class="toggle-label"><input type="checkbox" id="filterAlbum" /> Album</label>
+        <label class="toggle-label"><input type="checkbox" id="filterRaw" /> Raw Files</label>
+        <label class="toggle-label"><input type="checkbox" id="filterHideFlags" /> Hide ⚠️</label>
+      </div>
+
+      <!-- Min photos -->
+      <div class="filter-group">
+        <label class="filter-label">Min Photos</label>
+        <input type="number" id="minPhotos" min="0" placeholder="0" />
+      </div>
+
+      <!-- Sort -->
+      <div class="filter-group">
+        <label class="filter-label">Sort</label>
+        <select id="sortBy">
+          <option value="price-asc">Price ↑</option>
+          <option value="price-desc">Price ↓</option>
+          <option value="photos-desc">Most Photos</option>
+          <option value="duration-desc">Most Hours</option>
+          <option value="vendor-asc">Vendor A–Z</option>
+        </select>
+      </div>
+
+      <!-- Clear -->
+      <div class="filter-group">
+        <button class="btn-clear" id="clearFilters">Clear Filters</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- Tab bar -->
+    <div class="tab-bar">
+      <button class="tab active" data-tab="prewedding">Prewedding</button>
+      <button class="tab" data-tab="wedding">Wedding Day</button>
+      <button class="tab" data-tab="bundle">Bundles</button>
+    </div>
+
+    <!-- Result count -->
+    <div class="result-count" id="resultCount">Loading...</div>
+
+    <!-- Table container -->
+    <div class="table-wrapper" id="tableWrapper">
+      <table class="compare-table" id="compareTable">
+        <thead id="tableHead"></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <!-- COMPARE TRAY -->
+  <div class="tray" id="compareTray">
+    <div class="tray-inner">
+      <div class="tray-combos" id="trayCombos">
+        <!-- Rendered by tray.js -->
+      </div>
+      <div class="tray-actions">
+        <button class="btn-add-combo" id="addComboBtn">+ New Combo</button>
+        <button class="btn-compare" id="compareNowBtn" disabled>Compare Now →</button>
+        <button class="btn-clear-tray" id="clearTrayBtn">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPARISON MODAL -->
+  <div class="modal-overlay" id="modalOverlay" hidden>
+    <div class="modal">
+      <div class="modal-header">
+        <h2>Combo Comparison</h2>
+        <button class="modal-close" id="modalClose">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Rendered by modal.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts (order matters) -->
+  <script src="js/data.js"></script>
+  <script src="js/table.js"></script>
+  <script src="js/tray.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
