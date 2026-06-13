@@ -1,18 +1,19 @@
 {
   "packages": [
-
     {
       "id": "bare-ods-prewed-photo-video-1day",
       "vendor": "Bare Ods",
       "package": "Couple Session Photo+Video — One Day (Standard)",
       "type": "prewedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 39000000,
       "duration_hrs": 8,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -23,24 +24,31 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": 8,
       "attention_flags": [],
-      "notes": "Standard tier (Wira/Daru/Sal). Premium tier IDR 47M (Leon/Mike/Dre). Includes 40 printed photos in hardcover box + 2 canvas prints 60x90cm. Raw video not released."
+      "notes": "Standard tier (Wira/Daru/Sal). Premium tier IDR 47M (Leon/Mike/Dre). Includes 40 printed photos in hardcover box + 2 canvas prints 60x90cm. Raw video not released.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "bare-ods-prewed-photo-video-2day",
       "vendor": "Bare Ods",
       "package": "Couple Session Photo+Video — Two Days (Standard)",
       "type": "prewedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 45000000,
       "duration_hrs": 16,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 150,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -51,24 +59,31 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": 8,
       "attention_flags": [],
-      "notes": "Standard tier (Wira/Daru/Sal). Premium tier IDR 58M (Leon/Mike/Dre). Includes 70 printed photos + 2 canvas prints. Raw video not released."
+      "notes": "Standard tier (Wira/Daru/Sal). Premium tier IDR 58M (Leon/Mike/Dre). Includes 70 printed photos + 2 canvas prints. Raw video not released.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "bare-ods-wedding-photo-video",
       "vendor": "Bare Ods",
       "package": "Wedding Day Photo+Video (Standard)",
       "type": "wedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 52000000,
       "duration_hrs": 12,
       "photographers": 2,
       "videographers": 3,
       "edited_photos": 300,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -79,18 +94,26 @@
       "album": "20x20cm, 100 pages",
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": 8,
       "attention_flags": [],
-      "notes": "Standard tier (Wira). Premium tier IDR 61M (Leon/Mike/Dre). SDE video add-on IDR 3M. Raw video not released."
+      "notes": "Standard tier (Wira). Premium tier IDR 61M (Leon/Mike/Dre). SDE video add-on IDR 3M. Raw video not released.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "bare-ods-bundle-full-package",
       "vendor": "Bare Ods",
       "package": "Full Package — Couple Session + Wedding Day (Standard)",
       "type": "bundle",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 79000000,
       "savings": 12000000,
       "attention_flags": [],
@@ -100,7 +123,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 100,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": false,
@@ -111,14 +133,18 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["meals", "entrance fees"]
+        "exclusions": [
+          "meals",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 12,
         "photographers": 2,
         "videographers": 3,
         "edited_photos": 300,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": false,
@@ -129,10 +155,16 @@
         "album": "20x20cm, 100 pages",
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["meals", "entrance fees"]
-      }
+        "exclusions": [
+          "meals",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "biggest-moment-prewed-studio",
       "vendor": "Biggest Moment",
@@ -144,7 +176,6 @@
       "photographers": 1,
       "videographers": 0,
       "edited_photos": 20,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -158,8 +189,12 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Studio prewedding. Studio charge included. 2 hours, 2 standard themes. All digital photo files. Price list code PLSP2023 — verify current pricing."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Studio prewedding. Studio charge included. 2 hours, 2 standard themes. All digital photo files. Price list code PLSP2023 — verify current pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "biggest-moment-prewed-outdoor-photo",
@@ -172,7 +207,6 @@
       "photographers": 1,
       "videographers": 0,
       "edited_photos": 20,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -186,8 +220,12 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Outdoor/indoor prewedding. All digital files. Verify current pricing (PLSP2023)."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Outdoor/indoor prewedding. All digital files. Verify current pricing (PLSP2023).",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "biggest-moment-prewed-outdoor-photo-video",
@@ -200,7 +238,6 @@
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 30,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -214,8 +251,12 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Verify current pricing (PLSP2023)."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Verify current pricing (PLSP2023).",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "biggest-moment-wedding-1",
@@ -228,7 +269,6 @@
       "photographers": 1,
       "videographers": 0,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -242,8 +282,12 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Holy matrimony coverage only. All photo files digitally delivered. Verify pricing (PLSP2023)."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Holy matrimony coverage only. All photo files digitally delivered. Verify pricing (PLSP2023).",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "biggest-moment-wedding-2",
@@ -256,7 +300,6 @@
       "photographers": 2,
       "videographers": 0,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -270,8 +313,12 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Half day. Full day +IDR 500,000. Verify pricing (PLSP2023)."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Half day. Full day +IDR 500,000. Verify pricing (PLSP2023).",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "biggest-moment-wedding-3",
@@ -284,7 +331,6 @@
       "photographers": 2,
       "videographers": 1,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -298,8 +344,12 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Half day. Full day +IDR 1,000,000. Verify pricing (PLSP2023)."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Half day. Full day +IDR 1,000,000. Verify pricing (PLSP2023).",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "biggest-moment-wedding-4",
@@ -312,7 +362,6 @@
       "photographers": 2,
       "videographers": 2,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -326,10 +375,13 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Full day. Verify pricing (PLSP2023)."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Full day. Verify pricing (PLSP2023).",
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "eclat-prewed-intimate-session",
       "vendor": "Eclat",
@@ -341,7 +393,6 @@
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": 3,
       "video_teaser_min": null,
       "video_sde": false,
@@ -356,7 +407,9 @@
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Includes storyline, concept, moodboard, 1 stylist. Location not specified in price list — contact vendor."
+      "notes": "Includes storyline, concept, moodboard, 1 stylist. Location not specified in price list — contact vendor.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "eclat-prewed-intimate-movie",
@@ -369,7 +422,6 @@
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 150,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": null,
       "video_sde": false,
@@ -384,7 +436,9 @@
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Includes storyline, concept, moodboard, 1 stylist. Location not specified — contact vendor."
+      "notes": "Includes storyline, concept, moodboard, 1 stylist. Location not specified — contact vendor.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "eclat-wedding-half-day",
@@ -397,7 +451,6 @@
       "photographers": 2,
       "videographers": 2,
       "edited_photos": 150,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": null,
       "video_sde": false,
@@ -412,7 +465,9 @@
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Location not specified — contact vendor. Various add-ons available."
+      "notes": "Location not specified — contact vendor. Various add-ons available.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "eclat-wedding-full-day",
@@ -425,7 +480,6 @@
       "photographers": 2,
       "videographers": 2,
       "edited_photos": 300,
-      "raw_files": false,
       "video_highlight_min": 7,
       "video_teaser_min": null,
       "video_sde": false,
@@ -440,21 +494,23 @@
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Includes 1 assistant. Location not specified — contact vendor."
+      "notes": "Includes 1 assistant. Location not specified — contact vendor.",
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "galilea-prewed-couple-bali",
       "vendor": "Galilea",
       "package": "Couple Session — Bali (Standard)",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 15000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 200,
-      "raw_files": true,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -465,24 +521,31 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "location fees", "couple transport"],
+      "exclusions": [
+        "meals",
+        "location fees",
+        "couple transport"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "MUA & hairdo by @Marissarizki included. Max 3 locations, 3 outfits. Free analog film (3 rolls). Google Drive. DP 30%."
+      "notes": "MUA & hairdo by @Marissarizki included. Max 3 locations, 3 outfits. Free analog film (3 rolls). Google Drive. DP 30%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "galilea-prewed-bali-open-trip",
       "vendor": "Galilea",
       "package": "Couple Session — Bali Open Trip (Apr 22–25)",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 12000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 200,
-      "raw_files": true,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -493,24 +556,33 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "location fees", "couple transport"],
+      "exclusions": [
+        "meals",
+        "location fees",
+        "couple transport"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["open_trip_dates_passed"],
-      "notes": "Open trip Apr 22–25, 2026 — dates may have passed. Max 3 locations, 3 outfits. Free analog film (2 rolls). Confirm new dates with Galilea."
+      "attention_flags": [
+        "open_trip_dates_passed"
+      ],
+      "notes": "Open trip Apr 22–25, 2026 — dates may have passed. Max 3 locations, 3 outfits. Free analog film (2 rolls). Confirm new dates with Galilea.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "galilea-prewed-surabaya-open-trip",
       "vendor": "Galilea",
       "package": "Couple Session — Surabaya Open Trip (Feb 11–14)",
       "type": "prewedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 6000000,
       "duration_hrs": 7,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 200,
-      "raw_files": true,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -521,24 +593,33 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "location fees", "couple transport"],
+      "exclusions": [
+        "meals",
+        "location fees",
+        "couple transport"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["open_trip_dates_passed"],
-      "notes": "Open trip Feb 11–14, 2026 — dates have passed. 2 locations, 2 outfits. Free analog film (2 rolls). Confirm new dates."
+      "attention_flags": [
+        "open_trip_dates_passed"
+      ],
+      "notes": "Open trip Feb 11–14, 2026 — dates have passed. 2 locations, 2 outfits. Free analog film (2 rolls). Confirm new dates.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "galilea-prewed-japan-open-trip",
       "vendor": "Galilea",
       "package": "Couple Session — Japan Open Trip (May 13–20)",
       "type": "prewedding",
-      "locations": ["Overseas"],
+      "locations": [
+        "Overseas"
+      ],
       "price": 22000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 200,
-      "raw_files": true,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -549,24 +630,33 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "location fees", "couple transport"],
+      "exclusions": [
+        "meals",
+        "location fees",
+        "couple transport"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["open_trip_dates_passed"],
-      "notes": "Japan open trip May 13–20, 2026 — dates have passed. MUA included. Max 3 outfits, 3 locations. Free analog film (3 rolls). Limited 4 slots. Confirm new dates."
+      "attention_flags": [
+        "open_trip_dates_passed"
+      ],
+      "notes": "Japan open trip May 13–20, 2026 — dates have passed. MUA included. Max 3 outfits, 3 locations. Free analog film (3 rolls). Limited 4 slots. Confirm new dates.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "galilea-wedding-half-day",
       "vendor": "Galilea",
       "package": "Half Day Wedding — Bali",
       "type": "wedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 18000000,
       "duration_hrs": 8,
       "photographers": 2,
       "videographers": 1,
       "edited_photos": 300,
-      "raw_files": true,
       "video_highlight_min": 7,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -577,24 +667,31 @@
       "album": "30x20cm, 20 pages",
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "location fees", "couple transport"],
+      "exclusions": [
+        "meals",
+        "location fees",
+        "couple transport"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Free analog film (3 rolls). Upgrade to full day (15hrs) +IDR 3M. DP 30%."
+      "notes": "Free analog film (3 rolls). Upgrade to full day (15hrs) +IDR 3M. DP 30%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "galilea-wedding-full-day",
       "vendor": "Galilea",
       "package": "Full Day Wedding — Bali",
       "type": "wedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 30000000,
       "duration_hrs": 15,
       "photographers": 2,
       "videographers": 2,
       "edited_photos": 400,
-      "raw_files": true,
       "video_highlight_min": 10,
       "video_teaser_min": 1,
       "video_sde": true,
@@ -605,18 +702,26 @@
       "album": "30x20cm, 40 pages",
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["meals", "location fees", "couple transport"],
+      "exclusions": [
+        "meals",
+        "location fees",
+        "couple transport"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Free SDE + Free analog film (6 rolls). DP 30%."
+      "notes": "Free SDE + Free analog film (6 rolls). DP 30%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "galilea-bundle-kamandalu",
       "vendor": "Galilea",
       "package": "Kamandalu Package",
       "type": "bundle",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 36000000,
       "savings": 9000000,
       "attention_flags": [],
@@ -626,7 +731,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 200,
-        "raw_files": true,
         "video_highlight_min": 3,
         "video_teaser_min": 1,
         "video_sde": false,
@@ -637,14 +741,19 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["meals", "location fees", "couple transport"]
+        "exclusions": [
+          "meals",
+          "location fees",
+          "couple transport"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 15,
         "photographers": 2,
         "videographers": 1,
         "edited_photos": 300,
-        "raw_files": true,
         "video_highlight_min": 7,
         "video_teaser_min": 1,
         "video_sde": false,
@@ -655,15 +764,25 @@
         "album": "30x20cm, 20 pages",
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["meals", "location fees", "couple transport"]
-      }
+        "exclusions": [
+          "meals",
+          "location fees",
+          "couple transport"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "galilea-bundle-asmaradana",
       "vendor": "Galilea",
       "package": "Asmaradana Package",
       "type": "bundle",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 42000000,
       "savings": 3000000,
       "attention_flags": [],
@@ -673,7 +792,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 200,
-        "raw_files": true,
         "video_highlight_min": 3,
         "video_teaser_min": 1,
         "video_sde": false,
@@ -684,14 +802,19 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["meals", "location fees", "couple transport"]
+        "exclusions": [
+          "meals",
+          "location fees",
+          "couple transport"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 15,
         "photographers": 2,
         "videographers": 2,
         "edited_photos": 400,
-        "raw_files": true,
         "video_highlight_min": 10,
         "video_teaser_min": 1,
         "video_sde": true,
@@ -702,22 +825,30 @@
         "album": "30x20cm, 40 pages",
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["meals", "location fees", "couple transport"]
-      }
+        "exclusions": [
+          "meals",
+          "location fees",
+          "couple transport"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "mantara-prewed-bali-2day",
       "vendor": "Mantara",
       "package": "Bali Prewedding — 2 Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 28000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 150,
-      "raw_files": false,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -728,24 +859,29 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": false,
-      "exclusions": ["location fees"],
+      "exclusions": [
+        "location fees"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "2-day session. Includes 2-day transport (1 Hiace). MUA & hairdo included. Moodboard. Google Drive. DP 50%."
+      "notes": "2-day session. Includes 2-day transport (1 Hiace). MUA & hairdo included. Moodboard. Google Drive. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-prewed-bali-1day",
       "vendor": "Mantara",
       "package": "Bali Prewedding — 1 Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 19000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -756,24 +892,31 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": false,
-      "exclusions": ["location fees"],
+      "exclusions": [
+        "location fees"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
-      "attention_flags": ["limited_offer"],
-      "notes": "Normal price IDR 19M. Early bird IDR 16M. MUA & hairdo included. Moodboard. DP 50%."
+      "attention_flags": [
+        "limited_offer"
+      ],
+      "notes": "Normal price IDR 19M. Early bird IDR 16M. MUA & hairdo included. Moodboard. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-prewed-bali-normal",
       "vendor": "Mantara",
       "package": "Bali Prewedding — Normal Session",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 15000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -784,24 +927,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["location fees", "transport during session"],
+      "exclusions": [
+        "location fees",
+        "transport during session"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
-      "attention_flags": ["limited_offer"],
-      "notes": "Normal price IDR 15M. Early bird IDR 13M. No MUA. Moodboard. Google Drive. DP 50%."
+      "attention_flags": [
+        "limited_offer"
+      ],
+      "notes": "Normal price IDR 15M. Early bird IDR 13M. No MUA. Moodboard. Google Drive. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-prewed-japan",
       "vendor": "Mantara",
       "package": "Japan Prewedding (Full — Japan I)",
       "type": "prewedding",
-      "locations": ["Overseas"],
+      "locations": [
+        "Overseas"
+      ],
       "price": 30000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -812,24 +963,34 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["MUA", "transport during session", "location fees", "hotel for crew"],
+      "exclusions": [
+        "MUA",
+        "transport during session",
+        "location fees",
+        "hotel for crew"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
-      "attention_flags": ["limited_offer"],
-      "notes": "Japan I. Normal price IDR 30M. Early bird IDR 25M. Moodboard. Google Drive. DP 50%."
+      "attention_flags": [
+        "limited_offer"
+      ],
+      "notes": "Japan I. Normal price IDR 30M. Early bird IDR 25M. Moodboard. Google Drive. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-prewed-singapore",
       "vendor": "Mantara",
       "package": "Singapore Prewedding (SG I — with MUA & Drone)",
       "type": "prewedding",
-      "locations": ["Overseas"],
+      "locations": [
+        "Overseas"
+      ],
       "price": 25000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -840,24 +1001,33 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["transport during session", "location fees", "hotel for crew"],
+      "exclusions": [
+        "transport during session",
+        "location fees",
+        "hotel for crew"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
-      "attention_flags": ["limited_offer"],
-      "notes": "Singapore I. Normal price IDR 25M. Early bird IDR 19M. MUA + Hairdo + Drone included. DP 50%."
+      "attention_flags": [
+        "limited_offer"
+      ],
+      "notes": "Singapore I. Normal price IDR 25M. Early bird IDR 19M. MUA + Hairdo + Drone included. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-prewed-hongkong",
       "vendor": "Mantara",
       "package": "Hong Kong Prewedding (HK I — with MUA & Drone)",
       "type": "prewedding",
-      "locations": ["Overseas"],
+      "locations": [
+        "Overseas"
+      ],
       "price": 25000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": 3,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -868,24 +1038,34 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["transport during session", "location fees", "hotel for crew"],
+      "exclusions": [
+        "transport during session",
+        "location fees",
+        "hotel for crew"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
-      "attention_flags": ["limited_offer"],
-      "notes": "HK I. Normal price IDR 25M. Early bird IDR 19M. MUA + Hairdo + Drone included. DP 50%."
+      "attention_flags": [
+        "limited_offer"
+      ],
+      "notes": "HK I. Normal price IDR 25M. Early bird IDR 19M. MUA + Hairdo + Drone included. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-wedding-ivory",
       "vendor": "Mantara",
       "package": "Wedding Ivory (16hrs + SDE)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 26000000,
       "duration_hrs": 16,
       "photographers": 2,
       "videographers": 2,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": true,
@@ -900,20 +1080,24 @@
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Photo+Video. SDE included. Google Drive. DP 50%. Max 2 revisions."
+      "notes": "Photo+Video. SDE included. Google Drive. DP 50%. Max 2 revisions.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-wedding-prada",
       "vendor": "Mantara",
       "package": "Wedding Prada (12hrs)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 20000000,
       "duration_hrs": 12,
       "photographers": 2,
       "videographers": 2,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -928,20 +1112,24 @@
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Photo+Video. Google Drive. DP 50%."
+      "notes": "Photo+Video. Google Drive. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-wedding-luna",
       "vendor": "Mantara",
       "package": "Wedding Luna (6–8hrs)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 15000000,
       "duration_hrs": 8,
       "photographers": 2,
       "videographers": 2,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -956,24 +1144,30 @@
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Photo+Video. Google Drive. DP 50%."
+      "notes": "Photo+Video. Google Drive. DP 50%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mantara-bundle",
       "vendor": "Mantara",
       "package": "Bundle — Prewedding + Wedding",
       "type": "bundle",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 36000000,
       "savings": 9000000,
-      "attention_flags": ["limited_offer"],
+      "attention_flags": [
+        "limited_offer"
+      ],
       "notes": "Normal price IDR 45M. Bundle IDR 36M (save IDR 9M). Bali transport included in bundle. DP 50%.",
       "prewedding": {
         "duration_hrs": 12,
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 100,
-        "raw_files": false,
         "video_highlight_min": 3,
         "video_teaser_min": 1,
         "video_sde": false,
@@ -984,14 +1178,17 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": false,
-        "exclusions": ["location fees"]
+        "exclusions": [
+          "location fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 16,
         "photographers": 2,
         "videographers": 2,
         "edited_photos": 450,
-        "raw_files": false,
         "video_highlight_min": 3,
         "video_teaser_min": 1,
         "video_sde": true,
@@ -1002,22 +1199,26 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": false,
-        "exclusions": []
-      }
+        "exclusions": [],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "memography-prewed-candid-half-day",
       "vendor": "Memography",
       "package": "Candid Pre-Wedding — Half Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 6000000,
       "duration_hrs": 5,
       "photographers": 1,
       "videographers": 0,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1032,20 +1233,23 @@
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Unlimited edited photos. Photo only. Google Drive. Video add-on available +IDR 8M. Transport & accommodation for team included (Bali). DP 30%."
+      "notes": "Unlimited edited photos. Photo only. Google Drive. Video add-on available +IDR 8M. Transport & accommodation for team included (Bali). DP 30%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "memography-prewed-candid-full-day",
       "vendor": "Memography",
       "package": "Candid Pre-Wedding — Full Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 10000000,
       "duration_hrs": 14,
       "photographers": 1,
       "videographers": 0,
       "edited_photos": null,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1060,14 +1264,18 @@
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Unlimited edited photos. SDE photos delivered same day. Photo only. Video add-on available +IDR 14M. DP 30%."
+      "notes": "Unlimited edited photos. SDE photos delivered same day. Photo only. Video add-on available +IDR 14M. DP 30%.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "memography-bundle-half-day",
       "vendor": "Memography",
       "package": "Bundle — Pre-Wedding + Wedding Half Day (Photo)",
       "type": "bundle",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 18000000,
       "savings": 0,
       "attention_flags": [],
@@ -1077,7 +1285,6 @@
         "photographers": 1,
         "videographers": 0,
         "edited_photos": null,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": false,
@@ -1088,14 +1295,15 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": []
+        "exclusions": [],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 8,
         "photographers": 2,
         "videographers": 0,
         "edited_photos": null,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": false,
@@ -1106,15 +1314,21 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": []
-      }
+        "exclusions": [],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "memography-bundle-full-day",
       "vendor": "Memography",
       "package": "Bundle — Pre-Wedding + Wedding Full Day (Photo)",
       "type": "bundle",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 30000000,
       "savings": 0,
       "attention_flags": [],
@@ -1124,7 +1338,6 @@
         "photographers": 1,
         "videographers": 0,
         "edited_photos": null,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": false,
@@ -1135,14 +1348,15 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": []
+        "exclusions": [],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 16,
         "photographers": 2,
         "videographers": 0,
         "edited_photos": null,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": true,
@@ -1153,22 +1367,27 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": []
-      }
+        "exclusions": [],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "mnln-prewed-daisy-half-day",
       "vendor": "MNLN",
       "package": "Daisy — Couple Session Half Day (6hrs)",
       "type": "prewedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 10000000,
       "duration_hrs": 6,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 75,
-      "raw_files": true,
       "video_highlight_min": 2,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1179,24 +1398,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["meals", "transport", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "transport",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "2 looks, 2 locations. All JPG photos + edited. Google Drive. DP 30%."
+      "notes": "2 looks, 2 locations. All JPG photos + edited. Google Drive. DP 30%.",
+      "raw_photos": true,
+      "raw_video": false
     },
     {
       "id": "mnln-prewed-rose-full-day",
       "vendor": "MNLN",
       "package": "Rose — Couple Session Full Day (10hrs)",
       "type": "prewedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 15000000,
       "duration_hrs": 10,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 150,
-      "raw_files": true,
       "video_highlight_min": 3,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1207,24 +1434,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["meals", "transport", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "transport",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "3 looks, 3 locations. Google Drive + Flashdisk. DP 30%."
+      "notes": "3 looks, 3 locations. Google Drive + Flashdisk. DP 30%.",
+      "raw_photos": true,
+      "raw_video": false
     },
     {
       "id": "mnln-prewed-limited-full-day",
       "vendor": "MNLN",
       "package": "Full Day Prewedding — Limited Offer",
       "type": "prewedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 14000000,
       "duration_hrs": 10,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 150,
-      "raw_files": true,
       "video_highlight_min": 3,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1235,24 +1470,34 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["meals", "transport", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "transport",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["limited_offer"],
-      "notes": "Normal price IDR 18M. Special offer IDR 14M. Booking November 2025 limited slot. Includes MUA, hairdo (3 looks), stylist, moodboard. Drone subject to location/permission. DP 30%."
+      "attention_flags": [
+        "limited_offer"
+      ],
+      "notes": "Normal price IDR 18M. Special offer IDR 14M. Booking November 2025 limited slot. Includes MUA, hairdo (3 looks), stylist, moodboard. Drone subject to location/permission. DP 30%.",
+      "raw_photos": true,
+      "raw_video": false
     },
     {
       "id": "mnln-wedding-rose-half-day",
       "vendor": "MNLN",
       "package": "Rose — Wedding Half Day (8hrs)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 15000000,
       "duration_hrs": 8,
       "photographers": 2,
       "videographers": 2,
       "edited_photos": 200,
-      "raw_files": true,
       "video_highlight_min": 8,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1263,24 +1508,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["meals", "transport", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "transport",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "All JPG. Google Drive + Flashdisk. DP 30%."
+      "notes": "All JPG. Google Drive + Flashdisk. DP 30%.",
+      "raw_photos": true,
+      "raw_video": false
     },
     {
       "id": "mnln-wedding-daisy-full-day",
       "vendor": "MNLN",
       "package": "Daisy — Wedding Full Day (15hrs)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 23000000,
       "duration_hrs": 15,
       "photographers": 2,
       "videographers": 2,
       "edited_photos": 200,
-      "raw_files": true,
       "video_highlight_min": 8,
       "video_teaser_min": null,
       "video_sde": true,
@@ -1291,24 +1544,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["meals", "transport", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "transport",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "All JPG. Google Drive + Flashdisk. DP 30%."
+      "notes": "All JPG. Google Drive + Flashdisk. DP 30%.",
+      "raw_photos": true,
+      "raw_video": false
     },
     {
       "id": "mnln-wedding-rose-full-day",
       "vendor": "MNLN",
       "package": "Rose — Wedding Full Day (15hrs)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 32000000,
       "duration_hrs": 15,
       "photographers": 3,
       "videographers": 3,
       "edited_photos": 350,
-      "raw_files": true,
       "video_highlight_min": 10,
       "video_teaser_min": null,
       "video_sde": true,
@@ -1319,18 +1580,27 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["meals", "transport", "entrance fees"],
+      "exclusions": [
+        "meals",
+        "transport",
+        "entrance fees"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Premium tier. All JPG. Google Drive + Flashdisk. DP 30%."
+      "notes": "Premium tier. All JPG. Google Drive + Flashdisk. DP 30%.",
+      "raw_photos": true,
+      "raw_video": false
     },
     {
       "id": "mnln-bundle-all-in-rose-half-day",
       "vendor": "MNLN",
       "package": "All In Rose — Half Day Bundle",
       "type": "bundle",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 23000000,
       "savings": 2000000,
       "attention_flags": [],
@@ -1340,7 +1610,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 75,
-        "raw_files": true,
         "video_highlight_min": 2,
         "video_teaser_min": null,
         "video_sde": false,
@@ -1351,14 +1620,19 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["meals", "transport", "entrance fees"]
+        "exclusions": [
+          "meals",
+          "transport",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 8,
         "photographers": 2,
         "videographers": 2,
         "edited_photos": 150,
-        "raw_files": true,
         "video_highlight_min": 5,
         "video_teaser_min": null,
         "video_sde": false,
@@ -1369,15 +1643,26 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["meals", "transport", "entrance fees"]
-      }
+        "exclusions": [
+          "meals",
+          "transport",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mnln-bundle-all-in-daisy-full-day",
       "vendor": "MNLN",
       "package": "All In Daisy — Full Day Bundle",
       "type": "bundle",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 32000000,
       "savings": 6000000,
       "attention_flags": [],
@@ -1387,7 +1672,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 75,
-        "raw_files": true,
         "video_highlight_min": 2,
         "video_teaser_min": null,
         "video_sde": false,
@@ -1398,14 +1682,19 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["meals", "transport", "entrance fees"]
+        "exclusions": [
+          "meals",
+          "transport",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 15,
         "photographers": 2,
         "videographers": 2,
         "edited_photos": 150,
-        "raw_files": true,
         "video_highlight_min": 5,
         "video_teaser_min": null,
         "video_sde": true,
@@ -1416,15 +1705,26 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["meals", "transport", "entrance fees"]
-      }
+        "exclusions": [
+          "meals",
+          "transport",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "mnln-bundle-all-in-rose-full-day",
       "vendor": "MNLN",
       "package": "All In Rose — Full Day Bundle",
       "type": "bundle",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 37000000,
       "savings": 10000000,
       "attention_flags": [],
@@ -1434,7 +1734,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 150,
-        "raw_files": true,
         "video_highlight_min": 3,
         "video_teaser_min": null,
         "video_sde": false,
@@ -1445,14 +1744,19 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["meals", "transport", "entrance fees"]
+        "exclusions": [
+          "meals",
+          "transport",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 15,
         "photographers": 3,
         "videographers": 3,
         "edited_photos": 200,
-        "raw_files": true,
         "video_highlight_min": 10,
         "video_teaser_min": null,
         "video_sde": true,
@@ -1463,22 +1767,30 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["meals", "transport", "entrance fees"]
-      }
+        "exclusions": [
+          "meals",
+          "transport",
+          "entrance fees"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "pattivana-prewed-photo-surabaya",
       "vendor": "Pattivana",
       "package": "Prewedding Package — Photo (Surabaya)",
       "type": "prewedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 7000000,
       "duration_hrs": null,
       "photographers": 1,
       "videographers": 0,
       "edited_photos": 30,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1492,21 +1804,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 12.5M. Current price IDR 7M (promo Feb 23–28, 2026 — may be expired). All files on flashdisk. Additional day +IDR 3.5M. Verify current pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 12.5M. Current price IDR 7M (promo Feb 23–28, 2026 — may be expired). All files on flashdisk. Additional day +IDR 3.5M. Verify current pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-prewed-video-surabaya",
       "vendor": "Pattivana",
       "package": "Prewedding Package — Video (Surabaya)",
       "type": "prewedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 16000000,
       "duration_hrs": null,
       "photographers": 0,
       "videographers": 2,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -1520,21 +1837,27 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 22M. Current price IDR 16M (promo — may be expired). Bali/Jakarta version IDR 23M. All videos on flashdisk. Verify current pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 22M. Current price IDR 16M (promo — may be expired). Bali/Jakarta version IDR 23M. All videos on flashdisk. Verify current pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-basic-video-bali",
       "vendor": "Pattivana",
       "package": "Basic Wedding Package — Video (Bali/Jakarta)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 35000000,
       "duration_hrs": 17,
       "photographers": 0,
       "videographers": 3,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": true,
@@ -1548,21 +1871,27 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 40M. Current IDR 35M (promo — may be expired). Surabaya version IDR 20M. All videos on flashdisk. Verify current pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 40M. Current IDR 35M (promo — may be expired). Surabaya version IDR 20M. All videos on flashdisk. Verify current pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-full-video-bali",
       "vendor": "Pattivana",
       "package": "Full Wedding Package — Video (Bali/Jakarta)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 40000000,
       "duration_hrs": 17,
       "photographers": 0,
       "videographers": 3,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 10,
       "video_teaser_min": 1,
       "video_sde": true,
@@ -1576,21 +1905,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 45M. Current IDR 40M (promo — may be expired). Surabaya version IDR 26M. All videos on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 45M. Current IDR 40M (promo — may be expired). Surabaya version IDR 26M. All videos on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-photo-surabaya",
       "vendor": "Pattivana",
       "package": "Wedding Package — Photo (Surabaya)",
       "type": "wedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 11000000,
       "duration_hrs": 17,
       "photographers": 3,
       "videographers": 0,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1604,21 +1938,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 22.5M. Current IDR 11M (promo — may be expired). Jakarta version IDR 30M. All files on flashdisk. Verify current pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 22.5M. Current IDR 11M (promo — may be expired). Jakarta version IDR 30M. All files on flashdisk. Verify current pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-photo-jakarta",
       "vendor": "Pattivana",
       "package": "Wedding Package — Photo (Jakarta)",
       "type": "wedding",
-      "locations": ["Jakarta"],
+      "locations": [
+        "Jakarta"
+      ],
       "price": 30000000,
       "duration_hrs": 17,
       "photographers": 3,
       "videographers": 0,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1632,21 +1971,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "No promo discount listed for Jakarta. All files on flashdisk. Verify current pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "No promo discount listed for Jakarta. All files on flashdisk. Verify current pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-basic-video-surabaya",
       "vendor": "Pattivana",
       "package": "Basic Wedding Package — Video (Surabaya)",
       "type": "wedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 20000000,
       "duration_hrs": 17,
       "photographers": 0,
       "videographers": 3,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": true,
@@ -1660,21 +2004,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 26M. Current IDR 20M (promo — may be expired). All videos on flashdisk. Verify current pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 26M. Current IDR 20M (promo — may be expired). All videos on flashdisk. Verify current pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-full-video-surabaya",
       "vendor": "Pattivana",
       "package": "Full Wedding Package — Video (Surabaya)",
       "type": "wedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 26000000,
       "duration_hrs": 17,
       "photographers": 0,
       "videographers": 3,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 10,
       "video_teaser_min": 1,
       "video_sde": true,
@@ -1688,21 +2037,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 32M. Current IDR 26M (promo — may be expired). All videos on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 32M. Current IDR 26M (promo — may be expired). All videos on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-behind-essential-surabaya",
       "vendor": "Pattivana",
       "package": "Behind the Wedding — Essential (Surabaya)",
       "type": "wedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 24000000,
       "duration_hrs": null,
       "photographers": 0,
       "videographers": 2,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 10,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1716,21 +2070,27 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 28M. Current IDR 24M (promo). 2 videographers on D-1, D-Day, D+1. Video on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 28M. Current IDR 24M (promo). 2 videographers on D-1, D-Day, D+1. Video on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-behind-essential-bali",
       "vendor": "Pattivana",
       "package": "Behind the Wedding — Essential (Bali/Jakarta)",
       "type": "wedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 38000000,
       "duration_hrs": null,
       "photographers": 0,
       "videographers": 2,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 10,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1744,21 +2104,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 40M. Current IDR 38M (promo). 2 videographers on D-1, D-Day, D+1. Video on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 40M. Current IDR 38M (promo). 2 videographers on D-1, D-Day, D+1. Video on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-wedding-behind-exclusive-surabaya",
       "vendor": "Pattivana",
       "package": "Behind the Wedding — Exclusive (Surabaya)",
       "type": "wedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 28000000,
       "duration_hrs": null,
       "photographers": 0,
       "videographers": 3,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 15,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1772,21 +2137,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 32M. Current IDR 28M (promo). 1 videographer during prep (5 sessions × 2 hrs) + 2 videographers on D-1/D-Day/D+1. Bali/Jakarta price not listed. Video on flashdisk."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 32M. Current IDR 28M (promo). 1 videographer during prep (5 sessions × 2 hrs) + 2 videographers on D-1/D-Day/D+1. Bali/Jakarta price not listed. Video on flashdisk.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-engagement-surabaya",
       "vendor": "Pattivana",
       "package": "Engagement Package (Surabaya)",
       "type": "engagement",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 13600000,
       "duration_hrs": 6,
       "photographers": 0,
       "videographers": 3,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -1800,21 +2170,27 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 17M. Current IDR 13.6M (promo). 3 videographers, up to 6 hrs. All videos on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 17M. Current IDR 13.6M (promo). 3 videographers, up to 6 hrs. All videos on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-engagement-bali",
       "vendor": "Pattivana",
       "package": "Engagement Package (Bali/Jakarta)",
       "type": "engagement",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 26000000,
       "duration_hrs": 6,
       "photographers": 0,
       "videographers": 3,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -1828,21 +2204,27 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 28M. Current IDR 26M (promo). 3 videographers, up to 6 hrs. All videos on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 28M. Current IDR 26M (promo). 3 videographers, up to 6 hrs. All videos on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-prewed-video-bali",
       "vendor": "Pattivana",
       "package": "Prewedding Package — Video (Bali/Jakarta)",
       "type": "prewedding",
-      "locations": ["Bali", "Jakarta"],
+      "locations": [
+        "Bali",
+        "Jakarta"
+      ],
       "price": 23000000,
       "duration_hrs": null,
       "photographers": 0,
       "videographers": 2,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -1856,21 +2238,26 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 27M. Current IDR 23M (promo). Additional day IDR 9M/day. All videos on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 27M. Current IDR 23M (promo). Additional day IDR 9M/day. All videos on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pattivana-couple-documentary-surabaya",
       "vendor": "Pattivana",
       "package": "Couple Documentary (Surabaya)",
       "type": "prewedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 16000000,
       "duration_hrs": 48,
       "photographers": 0,
       "videographers": 1,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 10,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1884,22 +2271,27 @@
       "exclusions": [],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["promo_may_be_expired"],
-      "notes": "Original price IDR 20M. Current IDR 16M (promo). Up to 2 days shooting. Other cities upon request. Video on flashdisk. Verify pricing."
+      "attention_flags": [
+        "promo_may_be_expired"
+      ],
+      "notes": "Original price IDR 20M. Current IDR 16M (promo). Up to 2 days shooting. Other cities upon request. Video on flashdisk. Verify pricing.",
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "perpetual-prewed-photo-1day",
       "vendor": "Perpetual",
       "package": "Couple Session — Photo Only 1 Day",
       "type": "prewedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 22000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 0,
       "edited_photos": 60,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1910,24 +2302,33 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["ticket/transport", "accommodation", "meals", "visa"],
+      "exclusions": [
+        "ticket/transport",
+        "accommodation",
+        "meals",
+        "visa"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Includes 1 assistant, stylist & moodboard, low-res unedited photos. Cloud Drive. Additional IDR 4M for events outside Jabodetabek & Bali."
+      "notes": "Includes 1 assistant, stylist & moodboard, low-res unedited photos. Cloud Drive. Additional IDR 4M for events outside Jabodetabek & Bali.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-prewed-combo-1day",
       "vendor": "Perpetual",
       "package": "Couple Session — Photo+Video 1 Day",
       "type": "prewedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 39000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 60,
-      "raw_files": false,
       "video_highlight_min": 2,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1938,24 +2339,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["ticket/transport", "accommodation", "meals", "visa"],
+      "exclusions": [
+        "ticket/transport",
+        "accommodation",
+        "meals",
+        "visa"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Includes 1 assistant, stylist & moodboard. Cloud Drive. Additional IDR 4M for events outside Jabodetabek & Bali."
+      "notes": "Includes 1 assistant, stylist & moodboard. Cloud Drive. Additional IDR 4M for events outside Jabodetabek & Bali.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-prewed-overseas-us",
       "vendor": "Perpetual",
       "package": "Couple Session — Overseas USA (1 Day)",
       "type": "prewedding",
-      "locations": ["Overseas"],
+      "locations": [
+        "Overseas"
+      ],
       "price": 60000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 60,
-      "raw_files": false,
       "video_highlight_min": 2,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1966,24 +2375,32 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["transport during session", "meals", "location fees", "unplanned costs"],
+      "exclusions": [
+        "transport during session",
+        "meals",
+        "location fees",
+        "unplanned costs"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Crew airfare + hotel included. April availability. All hi-res JPEG + low-res unedited photos. Cloud Drive."
+      "notes": "Crew airfare + hotel included. April availability. All hi-res JPEG + low-res unedited photos. Cloud Drive.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-prewed-overseas-australia",
       "vendor": "Perpetual",
       "package": "Couple Session — Overseas Sydney/Melbourne (1 Day)",
       "type": "prewedding",
-      "locations": ["Overseas"],
+      "locations": [
+        "Overseas"
+      ],
       "price": 50000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 60,
-      "raw_files": false,
       "video_highlight_min": 2,
       "video_teaser_min": null,
       "video_sde": false,
@@ -1994,24 +2411,33 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["transport during session", "meals", "location fees", "unplanned costs"],
+      "exclusions": [
+        "transport during session",
+        "meals",
+        "location fees",
+        "unplanned costs"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Crew airfare + hotel included. March–April availability. 2-day version IDR 62M. Cloud Drive."
+      "notes": "Crew airfare + hotel included. March–April availability. 2-day version IDR 62M. Cloud Drive.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-wedding-photo-half-day",
       "vendor": "Perpetual",
       "package": "Wedding Day — Photo Half Day (up to 10hrs)",
       "type": "wedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 24000000,
       "duration_hrs": 10,
       "photographers": 2,
       "videographers": 0,
       "edited_photos": 200,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -2022,24 +2448,33 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["ticket/transport", "accommodation", "meals", "visa"],
+      "exclusions": [
+        "ticket/transport",
+        "accommodation",
+        "meals",
+        "visa"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Includes 1 assistant + low-res unedited photos. Cloud Drive."
+      "notes": "Includes 1 assistant + low-res unedited photos. Cloud Drive.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-wedding-combo-half-day",
       "vendor": "Perpetual",
       "package": "Wedding Day — Photo+Video Half Day (up to 10hrs)",
       "type": "wedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 47000000,
       "duration_hrs": 10,
       "photographers": 2,
       "videographers": 2,
       "edited_photos": 200,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": null,
       "video_sde": false,
@@ -2050,24 +2485,33 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["ticket/transport", "accommodation", "meals", "visa"],
+      "exclusions": [
+        "ticket/transport",
+        "accommodation",
+        "meals",
+        "visa"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Includes 1 assistant. Cloud Drive."
+      "notes": "Includes 1 assistant. Cloud Drive.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-wedding-combo-full-day",
       "vendor": "Perpetual",
       "package": "Wedding Day — Photo+Video Full Day (up to 16hrs)",
       "type": "wedding",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 58000000,
       "duration_hrs": 16,
       "photographers": 3,
       "videographers": 3,
       "edited_photos": 300,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": null,
       "video_sde": true,
@@ -2078,18 +2522,28 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["ticket/transport", "accommodation", "meals", "visa"],
+      "exclusions": [
+        "ticket/transport",
+        "accommodation",
+        "meals",
+        "visa"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
       "attention_flags": [],
-      "notes": "Drone if allowed. Includes 2 assistants. Cloud Drive."
+      "notes": "Drone if allowed. Includes 2 assistants. Cloud Drive.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-bundle-pkg1",
       "vendor": "Perpetual",
       "package": "All-In Package 1 — Couple Session 1 Day + Wedding Full Day",
       "type": "bundle",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 95000000,
       "savings": 24000000,
       "attention_flags": [],
@@ -2099,7 +2553,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 60,
-        "raw_files": false,
         "video_highlight_min": 2,
         "video_teaser_min": null,
         "video_sde": false,
@@ -2110,14 +2563,20 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["ticket/transport", "accommodation", "meals", "visa"]
+        "exclusions": [
+          "ticket/transport",
+          "accommodation",
+          "meals",
+          "visa"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 16,
         "photographers": 3,
         "videographers": 3,
         "edited_photos": 300,
-        "raw_files": false,
         "video_highlight_min": 5,
         "video_teaser_min": null,
         "video_sde": true,
@@ -2128,15 +2587,27 @@
         "album": "20x30cm, 80 pages",
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["ticket/transport", "accommodation", "meals", "visa"]
-      }
+        "exclusions": [
+          "ticket/transport",
+          "accommodation",
+          "meals",
+          "visa"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "perpetual-bundle-pkg2",
       "vendor": "Perpetual",
       "package": "All-In Package 2 — Couple Session 2 Days + Wedding Full Day",
       "type": "bundle",
-      "locations": ["Jakarta", "Bali"],
+      "locations": [
+        "Jakarta",
+        "Bali"
+      ],
       "price": 103000000,
       "savings": 0,
       "attention_flags": [],
@@ -2146,7 +2617,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 120,
-        "raw_files": false,
         "video_highlight_min": 3,
         "video_teaser_min": null,
         "video_sde": false,
@@ -2157,14 +2627,20 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["ticket/transport", "accommodation", "meals", "visa"]
+        "exclusions": [
+          "ticket/transport",
+          "accommodation",
+          "meals",
+          "visa"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 16,
         "photographers": 3,
         "videographers": 3,
         "edited_photos": 300,
-        "raw_files": false,
         "video_highlight_min": 5,
         "video_teaser_min": null,
         "video_sde": true,
@@ -2175,22 +2651,31 @@
         "album": "20x30cm, 80 pages",
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["ticket/transport", "accommodation", "meals", "visa"]
-      }
+        "exclusions": [
+          "ticket/transport",
+          "accommodation",
+          "meals",
+          "visa"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "pl-photo-prewed-1day-by-team",
       "vendor": "PL Photo",
       "package": "Bali Prewedding — One Day (By Team)",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 17500000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 50,
-      "raw_files": false,
       "video_highlight_min": 2,
       "video_teaser_min": null,
       "video_sde": false,
@@ -2201,24 +2686,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": true,
-      "exclusions": ["location fees", "meals for crew"],
+      "exclusions": [
+        "location fees",
+        "meals for crew"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["missing_wedding_package"],
-      "notes": "By Team tier. 3 concepts per day. Canvas 60x80cm included. All JPEG — raw files not provided. Raw video not provided. Bundle with wedding available at special price (contact vendor)."
+      "attention_flags": [
+        "missing_wedding_package"
+      ],
+      "notes": "By Team tier. 3 concepts per day. Canvas 60x80cm included. All JPEG — raw files not provided. Raw video not provided. Bundle with wedding available at special price (contact vendor).",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "pl-photo-prewed-1day-by-pl",
       "vendor": "PL Photo",
       "package": "Bali Prewedding — One Day (By PL / Owner)",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 22500000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 50,
-      "raw_files": false,
       "video_highlight_min": 2,
       "video_teaser_min": null,
       "video_sde": false,
@@ -2229,25 +2722,32 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": true,
-      "exclusions": ["location fees", "meals for crew"],
+      "exclusions": [
+        "location fees",
+        "meals for crew"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["missing_wedding_package"],
-      "notes": "By PL (owner Ko Putra) tier — all photos shot by owner personally. 3 concepts per day. Canvas 60x80cm included. All JPEG — raw files not provided. Raw video not provided."
+      "attention_flags": [
+        "missing_wedding_package"
+      ],
+      "notes": "By PL (owner Ko Putra) tier — all photos shot by owner personally. 3 concepts per day. Canvas 60x80cm included. All JPEG — raw files not provided. Raw video not provided.",
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "rawproject-prewed-photo-video-half-day",
       "vendor": "Raw Project",
       "package": "Bali Prewedding — Photo+Video Half Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 10000000,
       "duration_hrs": 8,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 50,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -2258,24 +2758,34 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": false,
-      "exclusions": ["couple transport", "location fees", "meals", "props"],
+      "exclusions": [
+        "couple transport",
+        "location fees",
+        "meals",
+        "props"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "Pricing guide 2025 — verify current pricing. 1–2 locations. MUA not following during session. Google Drive. DP 50%. Book min 1 month ahead."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Pricing guide 2025 — verify current pricing. 1–2 locations. MUA not following during session. Google Drive. DP 50%. Book min 1 month ahead.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "rawproject-prewed-photo-video-full-day",
       "vendor": "Raw Project",
       "package": "Bali Prewedding — Photo+Video Full Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 15000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -2286,24 +2796,34 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": false,
-      "exclusions": ["couple transport", "location fees", "meals", "props"],
+      "exclusions": [
+        "couple transport",
+        "location fees",
+        "meals",
+        "props"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated"],
-      "notes": "2–3 locations. MUA follows during session. Google Drive. DP 50%. Pricing guide 2025 — verify."
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "2–3 locations. MUA follows during session. Google Drive. DP 50%. Pricing guide 2025 — verify.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "rawproject-prewed-photo-only-full-day",
       "vendor": "Raw Project",
       "package": "Bali Prewedding — Photo Only Full Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 9000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 0,
       "edited_photos": 100,
-      "raw_files": false,
       "video_highlight_min": null,
       "video_teaser_min": null,
       "video_sde": false,
@@ -2314,24 +2834,35 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": false,
-      "exclusions": ["couple transport", "location fees", "meals", "props"],
+      "exclusions": [
+        "couple transport",
+        "location fees",
+        "meals",
+        "props"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated", "missing_wedding_package"],
-      "notes": "2–3 locations. MUA follows. Google Drive. DP 50%. No wedding packages offered. Pricing guide 2025 — verify."
+      "attention_flags": [
+        "price_list_possibly_outdated",
+        "missing_wedding_package"
+      ],
+      "notes": "2–3 locations. MUA follows. Google Drive. DP 50%. No wedding packages offered. Pricing guide 2025 — verify.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "rawproject-prewed-video-only-full-day",
       "vendor": "Raw Project",
       "package": "Bali Prewedding — Video Only Full Day",
       "type": "prewedding",
-      "locations": ["Bali"],
+      "locations": [
+        "Bali"
+      ],
       "price": 9000000,
       "duration_hrs": 12,
       "photographers": 0,
       "videographers": 2,
       "edited_photos": 0,
-      "raw_files": false,
       "video_highlight_min": 4,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -2342,25 +2873,36 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": false,
-      "exclusions": ["couple transport", "location fees", "meals", "props"],
+      "exclusions": [
+        "couple transport",
+        "location fees",
+        "meals",
+        "props"
+      ],
       "delivery_photos_weeks": null,
       "delivery_video_weeks": null,
-      "attention_flags": ["price_list_possibly_outdated", "missing_wedding_package"],
-      "notes": "2–3 locations. Drone included. Google Drive. DP 50%. No wedding packages offered. Pricing guide 2025 — verify."
+      "attention_flags": [
+        "price_list_possibly_outdated",
+        "missing_wedding_package"
+      ],
+      "notes": "2–3 locations. Drone included. Google Drive. DP 50%. No wedding packages offered. Pricing guide 2025 — verify.",
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "slowhand-prewed-surabaya-1day-photo-video",
       "vendor": "Slowhand",
       "package": "Destination Session — Surabaya/Bromo/Malang 1 Day Photo+Video",
       "type": "prewedding",
-      "locations": ["Surabaya", "Other"],
+      "locations": [
+        "Surabaya",
+        "Other"
+      ],
       "price": 18000000,
       "duration_hrs": 12,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 50,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -2371,24 +2913,32 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["daily transport during session", "entrance fees", "meals for crew"],
+      "exclusions": [
+        "daily transport during session",
+        "entrance fees",
+        "meals for crew"
+      ],
       "delivery_photos_weeks": 8,
       "delivery_video_weeks": 12,
       "attention_flags": [],
-      "notes": "2 looks. Color corrected. Google Drive. Delivery: photos max 2 months, video max 3 months. Upgrade to Ryan +IDR 3M, Aldo +IDR 2M."
+      "notes": "2 looks. Color corrected. Google Drive. Delivery: photos max 2 months, video max 3 months. Upgrade to Ryan +IDR 3M, Aldo +IDR 2M.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "slowhand-prewed-bali-2day-photo-video",
       "vendor": "Slowhand",
       "package": "Destination Session — Bali/Yogyakarta 2 Days Photo+Video",
       "type": "prewedding",
-      "locations": ["Bali", "Other"],
+      "locations": [
+        "Bali",
+        "Other"
+      ],
       "price": 25000000,
       "duration_hrs": 24,
       "photographers": 1,
       "videographers": 1,
       "edited_photos": 50,
-      "raw_files": false,
       "video_highlight_min": 5,
       "video_teaser_min": 1,
       "video_sde": false,
@@ -2399,24 +2949,31 @@
       "album": null,
       "crew_transport_included": true,
       "crew_accommodation_included": true,
-      "exclusions": ["daily transport during session", "entrance fees", "meals for crew"],
+      "exclusions": [
+        "daily transport during session",
+        "entrance fees",
+        "meals for crew"
+      ],
       "delivery_photos_weeks": 8,
       "delivery_video_weeks": 12,
       "attention_flags": [],
-      "notes": "3–4 looks. Color corrected. Google Drive. Accommodation for couple covered by client for ceremonial events."
+      "notes": "3–4 looks. Color corrected. Google Drive. Accommodation for couple covered by client for ceremonial events.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "slowhand-wedding-full-day-photo-video",
       "vendor": "Slowhand",
       "package": "Wedding Day — Full Day Photo+Video (15hrs)",
       "type": "wedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 30000000,
       "duration_hrs": 15,
       "photographers": 3,
       "videographers": 3,
       "edited_photos": 200,
-      "raw_files": false,
       "video_highlight_min": 15,
       "video_teaser_min": null,
       "video_sde": true,
@@ -2427,24 +2984,30 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["accommodation outside Surabaya", "transport outside Surabaya"],
+      "exclusions": [
+        "accommodation outside Surabaya",
+        "transport outside Surabaya"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": 12,
       "attention_flags": [],
-      "notes": "With reception coverage. Google Drive + flashdisk special packaging. Color corrected. Upgrade Ryan +IDR 4M, Aldo +IDR 2M. Out of town charge IDR 6.5M."
+      "notes": "With reception coverage. Google Drive + flashdisk special packaging. Color corrected. Upgrade Ryan +IDR 4M, Aldo +IDR 2M. Out of town charge IDR 6.5M.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "slowhand-wedding-half-day-photo-video",
       "vendor": "Slowhand",
       "package": "Wedding Day — Half Day Photo+Video (8hrs)",
       "type": "wedding",
-      "locations": ["Surabaya"],
+      "locations": [
+        "Surabaya"
+      ],
       "price": 26000000,
       "duration_hrs": 8,
       "photographers": 3,
       "videographers": 3,
       "edited_photos": 200,
-      "raw_files": false,
       "video_highlight_min": 10,
       "video_teaser_min": null,
       "video_sde": true,
@@ -2455,18 +3018,26 @@
       "album": null,
       "crew_transport_included": false,
       "crew_accommodation_included": false,
-      "exclusions": ["accommodation outside Surabaya", "transport outside Surabaya"],
+      "exclusions": [
+        "accommodation outside Surabaya",
+        "transport outside Surabaya"
+      ],
       "delivery_photos_weeks": 4,
       "delivery_video_weeks": 12,
       "attention_flags": [],
-      "notes": "Without reception. Google Drive + flashdisk. Color corrected. Out of town charge IDR 6.5M."
+      "notes": "Without reception. Google Drive + flashdisk. Color corrected. Out of town charge IDR 6.5M.",
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "slowhand-bundle-basic-photo-video",
       "vendor": "Slowhand",
       "package": "Basic Bundle — Couple Session + Wedding Full Day Photo+Video",
       "type": "bundle",
-      "locations": ["Surabaya", "Bali"],
+      "locations": [
+        "Surabaya",
+        "Bali"
+      ],
       "price": 52500000,
       "savings": 4500000,
       "attention_flags": [],
@@ -2476,7 +3047,6 @@
         "photographers": 1,
         "videographers": 1,
         "edited_photos": 50,
-        "raw_files": false,
         "video_highlight_min": 5,
         "video_teaser_min": 1,
         "video_sde": false,
@@ -2487,14 +3057,19 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["daily transport", "entrance fees", "meals"]
+        "exclusions": [
+          "daily transport",
+          "entrance fees",
+          "meals"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 15,
         "photographers": 3,
         "videographers": 3,
         "edited_photos": 200,
-        "raw_files": false,
         "video_highlight_min": 15,
         "video_teaser_min": null,
         "video_sde": true,
@@ -2505,15 +3080,25 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["accommodation outside Surabaya", "transport outside Surabaya"]
-      }
+        "exclusions": [
+          "accommodation outside Surabaya",
+          "transport outside Surabaya"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
     {
       "id": "slowhand-bundle-basic-photo-only",
       "vendor": "Slowhand",
       "package": "Basic Bundle — Couple Session + Wedding Full Day (Photo Only)",
       "type": "bundle",
-      "locations": ["Surabaya", "Bali"],
+      "locations": [
+        "Surabaya",
+        "Bali"
+      ],
       "price": 31000000,
       "savings": 3000000,
       "attention_flags": [],
@@ -2523,7 +3108,6 @@
         "photographers": 1,
         "videographers": 0,
         "edited_photos": 50,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": false,
@@ -2534,14 +3118,19 @@
         "album": null,
         "crew_transport_included": true,
         "crew_accommodation_included": true,
-        "exclusions": ["daily transport", "entrance fees", "meals"]
+        "exclusions": [
+          "daily transport",
+          "entrance fees",
+          "meals"
+        ],
+        "raw_photos": false,
+        "raw_video": false
       },
       "wedding": {
         "duration_hrs": 15,
         "photographers": 3,
         "videographers": 0,
         "edited_photos": 200,
-        "raw_files": false,
         "video_highlight_min": null,
         "video_teaser_min": null,
         "video_sde": false,
@@ -2552,477 +3141,701 @@
         "album": null,
         "crew_transport_included": false,
         "crew_accommodation_included": false,
-        "exclusions": ["accommodation outside Surabaya", "transport outside Surabaya"]
-      }
+        "exclusions": [
+          "accommodation outside Surabaya",
+          "transport outside Surabaya"
+        ],
+        "raw_photos": false,
+        "raw_video": false
+      },
+      "raw_photos": false,
+      "raw_video": false
     },
-
     {
       "id": "rabel-films-prewed-short-standard",
-    "vendor": "Rabel Films",
-    "package": "Short Pre Wedding Film (Putra/Suryo)",
-    "type": "prewedding",
-    "locations": ["Surabaya"],
-    "price": 5000000,
-    "duration_hrs": 3,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 1,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "1–1.5 min short film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "1 mirrorless camera, 3 hrs, 1 location. Files via Dropbox. Yoyo tier: IDR 4,000,000."
-  },
-
-  {
-    "id": "rabel-films-prewed-short-yoyo",
-    "vendor": "Rabel Films",
-    "package": "Short Pre Wedding Film (Yoyo)",
-    "type": "prewedding",
-    "locations": ["Surabaya"],
-    "price": 4000000,
-    "duration_hrs": 3,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 1,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "1–1.5 min short film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Budget tier (Yoyo videographer). 1 mirrorless camera, 3 hrs, 1 location. Files via Dropbox."
-  },
-
-  {
-    "id": "rabel-films-prewed-oneday-standard",
-    "vendor": "Rabel Films",
-    "package": "Pre Wedding Film — One Day (Putra/Suryo)",
-    "type": "prewedding",
-    "locations": ["Surabaya"],
-    "price": 15000000,
-    "duration_hrs": 8,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 5,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Includes moodboard. Files via Dropbox. Yoyo tier: IDR 12,000,000."
-  },
-
-  {
-    "id": "rabel-films-prewed-oneday-yoyo",
-    "vendor": "Rabel Films",
-    "package": "Pre Wedding Film — One Day (Yoyo)",
-    "type": "prewedding",
-    "locations": ["Surabaya"],
-    "price": 12000000,
-    "duration_hrs": 8,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 5,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Budget tier (Yoyo videographer). Includes moodboard. Files via Dropbox."
-  },
-
-  {
-    "id": "rabel-films-prewed-twodays-standard",
-    "vendor": "Rabel Films",
-    "package": "Pre Wedding Film — Two Days (Putra/Suryo)",
-    "type": "prewedding",
-    "locations": ["Surabaya"],
-    "price": 17000000,
-    "duration_hrs": 16,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 5,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Two days coverage. Includes moodboard. Files via Dropbox. Yoyo tier: IDR 14,000,000."
-  },
-
-  {
-    "id": "rabel-films-prewed-twodays-yoyo",
-    "vendor": "Rabel Films",
-    "package": "Pre Wedding Film — Two Days (Yoyo)",
-    "type": "prewedding",
-    "locations": ["Surabaya"],
-    "price": 14000000,
-    "duration_hrs": 16,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 5,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Budget tier (Yoyo videographer). Two days coverage. Includes moodboard. Files via Dropbox."
-  },
-
-  {
-    "id": "rabel-films-wedding-silver-standard",
-    "vendor": "Rabel Films",
-    "package": "Wedding Day Silver (Putra/Suryo)",
-    "type": "wedding",
-    "locations": ["Surabaya"],
-    "price": 27000000,
-    "duration_hrs": null,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": null,
-    "video_teaser_min": 1,
-    "video_sde": true,
-    "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "3 mirrorless cameras. Files on flashdisk in exclusive box. Yoyo tier: IDR 22,000,000. Drone add-on: IDR 2,000,000."
-  },
-
-  {
-    "id": "rabel-films-wedding-silver-yoyo",
-    "vendor": "Rabel Films",
-    "package": "Wedding Day Silver (Yoyo)",
-    "type": "wedding",
-    "locations": ["Surabaya"],
-    "price": 22000000,
-    "duration_hrs": null,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": null,
-    "video_teaser_min": 1,
-    "video_sde": true,
-    "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Budget tier (Yoyo videographer). 3 mirrorless cameras. Files on flashdisk in exclusive box."
-  },
-
-  {
-    "id": "rabel-films-wedding-gold-standard",
-    "vendor": "Rabel Films",
-    "package": "Wedding Day Gold (Putra/Suryo)",
-    "type": "wedding",
-    "locations": ["Surabaya"],
-    "price": 34000000,
-    "duration_hrs": null,
-    "photographers": 0,
-    "videographers": 2,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": null,
-    "video_teaser_min": 1,
-    "video_sde": true,
-    "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "3 mirrorless + 1 HDV (ceremony) + 4 mirrorless + 2 HDV (reception). Live coverage with full HD switcher. Files on flashdisk. Yoyo tier: IDR 29,000,000."
-  },
-
-  {
-    "id": "rabel-films-wedding-gold-yoyo",
-    "vendor": "Rabel Films",
-    "package": "Wedding Day Gold (Yoyo)",
-    "type": "wedding",
-    "locations": ["Surabaya"],
-    "price": 29000000,
-    "duration_hrs": null,
-    "photographers": 0,
-    "videographers": 2,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": null,
-    "video_teaser_min": 1,
-    "video_sde": true,
-    "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Budget tier (Yoyo videographer). Multi-camera setup with live coverage. Files on flashdisk."
-  },
-
-  {
-    "id": "rabel-films-wedding-diamond-standard",
-    "vendor": "Rabel Films",
-    "package": "Wedding Day Diamond (Putra/Suryo)",
-    "type": "wedding",
-    "locations": ["Surabaya"],
-    "price": 37000000,
-    "duration_hrs": null,
-    "photographers": 0,
-    "videographers": 2,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": null,
-    "video_teaser_min": 1,
-    "video_sde": true,
-    "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Top tier. 3+1 HDV (ceremony) + 4+3 HDV (reception) + 1 crane (Jimmy Jib). Live coverage. Files on flashdisk. Yoyo tier: IDR 32,000,000."
-  },
-
-  {
-    "id": "rabel-films-wedding-diamond-yoyo",
-    "vendor": "Rabel Films",
-    "package": "Wedding Day Diamond (Yoyo)",
-    "type": "wedding",
-    "locations": ["Surabaya"],
-    "price": 32000000,
-    "duration_hrs": null,
-    "photographers": 0,
-    "videographers": 2,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": null,
-    "video_teaser_min": 1,
-    "video_sde": true,
-    "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Budget tier (Yoyo videographer). Includes crane (Jimmy Jib) + multi-camera live coverage. Files on flashdisk."
-  },
-
-  {
-    "id": "rabel-films-engagement-standard",
-    "vendor": "Rabel Films",
-    "package": "Engagement Film (Putra/Suryo)",
-    "type": "engagement",
-    "locations": ["Surabaya"],
-    "price": 15000000,
-    "duration_hrs": 4,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 4,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "3–4 min engagement film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "2 mirrorless cameras, 4 hours coverage. Files via Dropbox. Team tier: IDR 10,000,000."
-  },
-
-  {
-    "id": "rabel-films-engagement-team",
-    "vendor": "Rabel Films",
-    "package": "Engagement Film (Team)",
-    "type": "engagement",
-    "locations": ["Surabaya"],
-    "price": 10000000,
-    "duration_hrs": 4,
-    "photographers": 0,
-    "videographers": 1,
-    "edited_photos": 0,
-    "raw_files": false,
-    "video_highlight_min": 4,
-    "video_teaser_min": 1,
-    "video_sde": false,
-    "video_notes": "3–4 min engagement film + IG version (<1 min)",
-    "drone": false,
-    "mua": false,
-    "stylist": false,
-    "album": null,
-    "crew_transport_included": false,
-    "crew_accommodation_included": false,
-    "delivery_photos_weeks": null,
-    "delivery_video_weeks": null,
-    "exclusions": ["out-of-Surabaya surcharges apply"],
-    "attention_flags": ["price_list_possibly_outdated"],
-    "notes": "Budget tier (Team videographer). 2 mirrorless cameras, 4 hours coverage. Files via Dropbox. Yoyo not available for this package."
-  }
-
+      "vendor": "Rabel Films",
+      "package": "Short Pre Wedding Film (Putra/Suryo)",
+      "type": "prewedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 5000000,
+      "duration_hrs": 3,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 1,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "1–1.5 min short film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "1 mirrorless camera, 3 hrs, 1 location. Files via Dropbox. Yoyo tier: IDR 4,000,000.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-prewed-short-yoyo",
+      "vendor": "Rabel Films",
+      "package": "Short Pre Wedding Film (Yoyo)",
+      "type": "prewedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 4000000,
+      "duration_hrs": 3,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 1,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "1–1.5 min short film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Budget tier (Yoyo videographer). 1 mirrorless camera, 3 hrs, 1 location. Files via Dropbox.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-prewed-oneday-standard",
+      "vendor": "Rabel Films",
+      "package": "Pre Wedding Film — One Day (Putra/Suryo)",
+      "type": "prewedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 15000000,
+      "duration_hrs": 8,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 5,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Includes moodboard. Files via Dropbox. Yoyo tier: IDR 12,000,000.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-prewed-oneday-yoyo",
+      "vendor": "Rabel Films",
+      "package": "Pre Wedding Film — One Day (Yoyo)",
+      "type": "prewedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 12000000,
+      "duration_hrs": 8,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 5,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Budget tier (Yoyo videographer). Includes moodboard. Files via Dropbox.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-prewed-twodays-standard",
+      "vendor": "Rabel Films",
+      "package": "Pre Wedding Film — Two Days (Putra/Suryo)",
+      "type": "prewedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 17000000,
+      "duration_hrs": 16,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 5,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Two days coverage. Includes moodboard. Files via Dropbox. Yoyo tier: IDR 14,000,000.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-prewed-twodays-yoyo",
+      "vendor": "Rabel Films",
+      "package": "Pre Wedding Film — Two Days (Yoyo)",
+      "type": "prewedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 14000000,
+      "duration_hrs": 16,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 5,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "3–5 min pre-wedding film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Budget tier (Yoyo videographer). Two days coverage. Includes moodboard. Files via Dropbox.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-wedding-silver-standard",
+      "vendor": "Rabel Films",
+      "package": "Wedding Day Silver (Putra/Suryo)",
+      "type": "wedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 27000000,
+      "duration_hrs": null,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": null,
+      "video_teaser_min": 1,
+      "video_sde": true,
+      "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "3 mirrorless cameras. Files on flashdisk in exclusive box. Yoyo tier: IDR 22,000,000. Drone add-on: IDR 2,000,000.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-wedding-silver-yoyo",
+      "vendor": "Rabel Films",
+      "package": "Wedding Day Silver (Yoyo)",
+      "type": "wedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 22000000,
+      "duration_hrs": null,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": null,
+      "video_teaser_min": 1,
+      "video_sde": true,
+      "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Budget tier (Yoyo videographer). 3 mirrorless cameras. Files on flashdisk in exclusive box.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-wedding-gold-standard",
+      "vendor": "Rabel Films",
+      "package": "Wedding Day Gold (Putra/Suryo)",
+      "type": "wedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 34000000,
+      "duration_hrs": null,
+      "photographers": 0,
+      "videographers": 2,
+      "edited_photos": 0,
+      "video_highlight_min": null,
+      "video_teaser_min": 1,
+      "video_sde": true,
+      "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "3 mirrorless + 1 HDV (ceremony) + 4 mirrorless + 2 HDV (reception). Live coverage with full HD switcher. Files on flashdisk. Yoyo tier: IDR 29,000,000.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-wedding-gold-yoyo",
+      "vendor": "Rabel Films",
+      "package": "Wedding Day Gold (Yoyo)",
+      "type": "wedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 29000000,
+      "duration_hrs": null,
+      "photographers": 0,
+      "videographers": 2,
+      "edited_photos": 0,
+      "video_highlight_min": null,
+      "video_teaser_min": 1,
+      "video_sde": true,
+      "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Budget tier (Yoyo videographer). Multi-camera setup with live coverage. Files on flashdisk.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-wedding-diamond-standard",
+      "vendor": "Rabel Films",
+      "package": "Wedding Day Diamond (Putra/Suryo)",
+      "type": "wedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 37000000,
+      "duration_hrs": null,
+      "photographers": 0,
+      "videographers": 2,
+      "edited_photos": 0,
+      "video_highlight_min": null,
+      "video_teaser_min": 1,
+      "video_sde": true,
+      "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Top tier. 3+1 HDV (ceremony) + 4+3 HDV (reception) + 1 crane (Jimmy Jib). Live coverage. Files on flashdisk. Yoyo tier: IDR 32,000,000.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-wedding-diamond-yoyo",
+      "vendor": "Rabel Films",
+      "package": "Wedding Day Diamond (Yoyo)",
+      "type": "wedding",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 32000000,
+      "duration_hrs": null,
+      "photographers": 0,
+      "videographers": 2,
+      "edited_photos": 0,
+      "video_highlight_min": null,
+      "video_teaser_min": 1,
+      "video_sde": true,
+      "video_notes": "SDE 3–5 min + IG version (<1 min) + full documentation + live coverage",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Budget tier (Yoyo videographer). Includes crane (Jimmy Jib) + multi-camera live coverage. Files on flashdisk.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-engagement-standard",
+      "vendor": "Rabel Films",
+      "package": "Engagement Film (Putra/Suryo)",
+      "type": "engagement",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 15000000,
+      "duration_hrs": 4,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 4,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "3–4 min engagement film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "2 mirrorless cameras, 4 hours coverage. Files via Dropbox. Team tier: IDR 10,000,000.",
+      "raw_photos": false,
+      "raw_video": false
+    },
+    {
+      "id": "rabel-films-engagement-team",
+      "vendor": "Rabel Films",
+      "package": "Engagement Film (Team)",
+      "type": "engagement",
+      "locations": [
+        "Surabaya"
+      ],
+      "price": 10000000,
+      "duration_hrs": 4,
+      "photographers": 0,
+      "videographers": 1,
+      "edited_photos": 0,
+      "video_highlight_min": 4,
+      "video_teaser_min": 1,
+      "video_sde": false,
+      "video_notes": "3–4 min engagement film + IG version (<1 min)",
+      "drone": false,
+      "mua": false,
+      "stylist": false,
+      "album": null,
+      "crew_transport_included": false,
+      "crew_accommodation_included": false,
+      "delivery_photos_weeks": null,
+      "delivery_video_weeks": null,
+      "exclusions": [
+        "out-of-Surabaya surcharges apply"
+      ],
+      "attention_flags": [
+        "price_list_possibly_outdated"
+      ],
+      "notes": "Budget tier (Team videographer). 2 mirrorless cameras, 4 hours coverage. Files via Dropbox. Yoyo not available for this package.",
+      "raw_photos": false,
+      "raw_video": false
+    }
   ],
-
   "addons": {
     "bare_ods": [
-      { "name": "Additional Photographer", "price": 3500000 },
-      { "name": "Additional Videographer", "price": 3500000 },
-      { "name": "Same Day Edit video", "price": 3000000 },
-      { "name": "Drone", "price": 5000000 },
-      { "name": "Two sets of canvas (60x90cm)", "price": 2000000 },
-      { "name": "Photo album (20x20cm, 100 pages)", "price": 4000000 },
-      { "name": "Wedding Day After Party (per hour)", "price": 4000000 }
+      {
+        "name": "Additional Photographer",
+        "price": 3500000
+      },
+      {
+        "name": "Additional Videographer",
+        "price": 3500000
+      },
+      {
+        "name": "Same Day Edit video",
+        "price": 3000000
+      },
+      {
+        "name": "Drone",
+        "price": 5000000
+      },
+      {
+        "name": "Two sets of canvas (60x90cm)",
+        "price": 2000000
+      },
+      {
+        "name": "Photo album (20x20cm, 100 pages)",
+        "price": 4000000
+      },
+      {
+        "name": "Wedding Day After Party (per hour)",
+        "price": 4000000
+      }
     ],
     "eclat": [
-      { "name": "Mini Studio for Wedding", "price": 5000000 },
-      { "name": "Additional Photographer", "price": 3000000 },
-      { "name": "Additional Videographer", "price": 3000000 },
-      { "name": "Additional Hours", "price": 3000000 },
-      { "name": "Same Day Edit", "price": 3000000 },
-      { "name": "Premium Canvas 40x60cm", "price": 2000000 },
-      { "name": "Premium Canvas 60x90cm", "price": 3000000 },
-      { "name": "Eclat Signature Postcard", "price": 2000000 }
+      {
+        "name": "Mini Studio for Wedding",
+        "price": 5000000
+      },
+      {
+        "name": "Additional Photographer",
+        "price": 3000000
+      },
+      {
+        "name": "Additional Videographer",
+        "price": 3000000
+      },
+      {
+        "name": "Additional Hours",
+        "price": 3000000
+      },
+      {
+        "name": "Same Day Edit",
+        "price": 3000000
+      },
+      {
+        "name": "Premium Canvas 40x60cm",
+        "price": 2000000
+      },
+      {
+        "name": "Premium Canvas 60x90cm",
+        "price": 3000000
+      },
+      {
+        "name": "Eclat Signature Postcard",
+        "price": 2000000
+      }
     ],
     "mantara": [
-      { "name": "Same Day Edit", "price": 3000000 },
-      { "name": "Additional Photographer", "price": 3000000 },
-      { "name": "Additional Videographer", "price": 3000000 },
-      { "name": "Album Magazine", "price": 3000000 },
-      { "name": "Video Documentary", "price": 3500000 }
+      {
+        "name": "Same Day Edit",
+        "price": 3000000
+      },
+      {
+        "name": "Additional Photographer",
+        "price": 3000000
+      },
+      {
+        "name": "Additional Videographer",
+        "price": 3000000
+      },
+      {
+        "name": "Album Magazine",
+        "price": 3000000
+      },
+      {
+        "name": "Video Documentary",
+        "price": 3500000
+      }
     ],
     "memography": [
-      { "name": "Additional Photographer or Videographer", "price": 3000000 },
-      { "name": "Same Day Edit (SDE) Video", "price": 3000000 },
-      { "name": "Drone", "price": 3000000 },
-      { "name": "Mini Studio 6x6", "price": 5000000 },
-      { "name": "Wedding Book Album", "price": 2000000 },
-      { "name": "Fashion Stylist", "price": 3000000 }
+      {
+        "name": "Additional Photographer or Videographer",
+        "price": 3000000
+      },
+      {
+        "name": "Same Day Edit (SDE) Video",
+        "price": 3000000
+      },
+      {
+        "name": "Drone",
+        "price": 3000000
+      },
+      {
+        "name": "Mini Studio 6x6",
+        "price": 5000000
+      },
+      {
+        "name": "Wedding Book Album",
+        "price": 2000000
+      },
+      {
+        "name": "Fashion Stylist",
+        "price": 3000000
+      }
     ],
     "perpetual": [
-      { "name": "Same day edit", "price": 7000000 },
-      { "name": "Drone", "price": 5000000 },
-      { "name": "Raw files photo (incl. HDD)", "price": 8000000 },
-      { "name": "Raw files video (incl. HDD)", "price": 8000000 },
-      { "name": "Album 20x30 — 80 pages", "price": 5000000 },
-      { "name": "Additional photographer or videographer", "price": 3500000 }
+      {
+        "name": "Same day edit",
+        "price": 7000000
+      },
+      {
+        "name": "Drone",
+        "price": 5000000
+      },
+      {
+        "name": "Raw files photo (incl. HDD)",
+        "price": 8000000
+      },
+      {
+        "name": "Raw files video (incl. HDD)",
+        "price": 8000000
+      },
+      {
+        "name": "Album 20x30 — 80 pages",
+        "price": 5000000
+      },
+      {
+        "name": "Additional photographer or videographer",
+        "price": 3500000
+      }
     ],
     "slowhand": [
-      { "name": "Printed Album & Flashdisk (hardcover, 20x30cm, 40 pages)", "price": 5500000 },
-      { "name": "Frameless Canvas Photo 60x90cm", "price": 800000 },
-      { "name": "After party coverage – photo only (max 1.5hrs)", "price": 2000000 },
-      { "name": "After party coverage – photo & video (max 1.5hrs)", "price": 3500000 },
-      { "name": "Out of town charges (ceremonial event outside Surabaya)", "price": 6500000 }
+      {
+        "name": "Printed Album & Flashdisk (hardcover, 20x30cm, 40 pages)",
+        "price": 5500000
+      },
+      {
+        "name": "Frameless Canvas Photo 60x90cm",
+        "price": 800000
+      },
+      {
+        "name": "After party coverage – photo only (max 1.5hrs)",
+        "price": 2000000
+      },
+      {
+        "name": "After party coverage – photo & video (max 1.5hrs)",
+        "price": 3500000
+      },
+      {
+        "name": "Out of town charges (ceremonial event outside Surabaya)",
+        "price": 6500000
+      }
     ],
     "rabel_films": [
-      { "name": "YouTube live streaming (max 2 hrs, full HD switcher)", "price": 5000000 },
-      { "name": "Aerial shoot (drone)", "price": 2000000 },
-      { "name": "Out of Surabaya — prewedding (from)", "price": 2000000 },
-      { "name": "Out of Surabaya — wedding day (from)", "price": 4000000 },
-      { "name": "Screen & projector (digital setup)", "price": 2000000 },
-      { "name": "Thanks to parents clip", "price": 3000000 },
-      { "name": "Additional 1 day wedding (3 mirrorless cameras)", "price": 8000000 },
-      { "name": "Un-edited RAW materials", "price": 2000000 }
+      {
+        "name": "YouTube live streaming (max 2 hrs, full HD switcher)",
+        "price": 5000000
+      },
+      {
+        "name": "Aerial shoot (drone)",
+        "price": 2000000
+      },
+      {
+        "name": "Out of Surabaya — prewedding (from)",
+        "price": 2000000
+      },
+      {
+        "name": "Out of Surabaya — wedding day (from)",
+        "price": 4000000
+      },
+      {
+        "name": "Screen & projector (digital setup)",
+        "price": 2000000
+      },
+      {
+        "name": "Thanks to parents clip",
+        "price": 3000000
+      },
+      {
+        "name": "Additional 1 day wedding (3 mirrorless cameras)",
+        "price": 8000000
+      },
+      {
+        "name": "Un-edited RAW materials",
+        "price": 2000000
+      }
     ]
   }
 }

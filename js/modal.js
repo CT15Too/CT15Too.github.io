@@ -133,9 +133,13 @@ var CompareModal = (function() {
       var p = c.bundle ? c.bundle.prewedding : c.prewed;
       return p ? p.edited_photos : null;
     }, true, false);
-    html += makeBoolRow('Raw Files', combos, function(c) {
+    html += makeBoolRow('Raw Photos', combos, function(c) {
       var p = c.bundle ? c.bundle.prewedding : c.prewed;
-      return p && p.raw_files;
+      return p && p.raw_photos;
+    });
+    html += makeBoolRow('Raw Video', combos, function(c) {
+      var p = c.bundle ? c.bundle.prewedding : c.prewed;
+      return p && p.raw_video;
     });
     html += makeTextRow('Video', combos, function(c) {
       var p = c.bundle ? c.bundle.prewedding : c.prewed;
@@ -170,9 +174,13 @@ var CompareModal = (function() {
       var w = c.bundle ? c.bundle.wedding : c.wedding;
       return w ? w.edited_photos : null;
     }, true, false);
-    html += makeBoolRow('Raw Files', combos, function(c) {
+    html += makeBoolRow('Raw Photos', combos, function(c) {
       var w = c.bundle ? c.bundle.wedding : c.wedding;
-      return w && w.raw_files;
+      return w && w.raw_photos;
+    });
+    html += makeBoolRow('Raw Video', combos, function(c) {
+      var w = c.bundle ? c.bundle.wedding : c.wedding;
+      return w && w.raw_video;
     });
     html += makeTextRow('Video', combos, function(c) {
       var w = c.bundle ? c.bundle.wedding : c.wedding;

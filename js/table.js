@@ -6,11 +6,12 @@ var TableRenderer = (function() {
     { key: 'locations',    label: 'Location' },
     { key: 'price',        label: 'Price' },
     { key: 'duration_hrs', label: 'Duration' },
-    { key: 'photographers',label: 'Photo' },
-    { key: 'videographers',label: 'Video' },
+    { key: 'photographers',label: 'Photographers' },
+    { key: 'videographers',label: 'Videographers' },
     { key: 'edited_photos',label: 'Edited Photos' },
-    { key: 'raw_files',    label: 'Raw Files' },
-    { key: 'video_notes',  label: 'Video Deliverables' },
+    { key: 'raw_photos',   label: 'Raw Photos' },
+    { key: 'raw_video',    label: 'Raw Video' },
+    { key: 'video_notes',  label: 'Videos Included' },
     { key: 'drone',        label: 'Drone' },
     { key: 'mua',          label: 'MUA' },
     { key: 'stylist',      label: 'Stylist' },
@@ -25,11 +26,12 @@ var TableRenderer = (function() {
     { key: 'locations',    label: 'Location' },
     { key: 'price',        label: 'Price' },
     { key: 'duration_hrs', label: 'Duration' },
-    { key: 'photographers',label: 'Photo' },
-    { key: 'videographers',label: 'Video' },
+    { key: 'photographers',label: 'Photographers' },
+    { key: 'videographers',label: 'Videographers' },
     { key: 'edited_photos',label: 'Edited Photos' },
-    { key: 'raw_files',    label: 'Raw Files' },
-    { key: 'video_notes',  label: 'Video Deliverables' },
+    { key: 'raw_photos',   label: 'Raw Photos' },
+    { key: 'raw_video',    label: 'Raw Video' },
+    { key: 'video_notes',  label: 'Videos Included' },
     { key: 'video_sde',    label: 'SDE' },
     { key: 'drone',        label: 'Drone' },
     { key: 'album',        label: 'Album' },
@@ -102,8 +104,10 @@ var TableRenderer = (function() {
         return '<td>' + (pkg.videographers != null ? pkg.videographers : '—') + '</td>';
       case 'edited_photos':
         return '<td>' + (pkg.edited_photos != null ? pkg.edited_photos : '—') + '</td>';
-      case 'raw_files':
-        return '<td>' + bool(pkg.raw_files) + '</td>';
+      case 'raw_photos':
+        return '<td>' + bool(pkg.raw_photos) + '</td>';
+      case 'raw_video':
+        return '<td>' + bool(pkg.raw_video) + '</td>';
       case 'video_notes':
         return '<td style="font-size:12px;max-width:180px">' + (pkg.video_notes || '—') + '</td>';
       case 'video_sde':

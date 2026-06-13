@@ -70,7 +70,9 @@ var AppData = (function() {
 
       // Raw files
       if (filters.raw) {
-        var raw = pkg.raw_files || (pkg.prewedding && pkg.prewedding.raw_files) || (pkg.wedding && pkg.wedding.raw_files);
+        var raw = pkg.raw_photos || pkg.raw_video ||
+          (pkg.prewedding && (pkg.prewedding.raw_photos || pkg.prewedding.raw_video)) ||
+          (pkg.wedding && (pkg.wedding.raw_photos || pkg.wedding.raw_video));
         if (!raw) return false;
       }
 
